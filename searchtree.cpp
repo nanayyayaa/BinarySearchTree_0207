@@ -121,3 +121,16 @@ public:
             postorder(ptr->rightchild);
             cout << ptr->info << " ";
         }
+    }
+};
+
+int main()
+    {
+        binarytree obj;
+
+        while (true)
+        {
+            cout << "\nmenu" << endl;
+            cout << "1. implement insert operation" << endl;
+            cout << "2. implement inorder traversal" << endl;
+            cout << "3. implement preorder traversal" << endl;
