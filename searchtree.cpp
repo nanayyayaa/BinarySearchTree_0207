@@ -10,4 +10,15 @@ public:
     node *rightchild;
 
     //constructor for node class
-    
+    node(string i, node *l, node *r)
+    {
+        info = i;
+        leftchild = l;
+        rightchild = r;
+    }
+};
+
+class binarytree
+{
+public:
+    node *root;
