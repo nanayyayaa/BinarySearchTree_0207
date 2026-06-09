@@ -98,3 +98,13 @@ public:
             cout << "tree is empty" << endl;
             return;
         }
+
+        if(ptr != NULL)
+        {
+            cout << ptr->info << " ";
+            preorder(ptr->leftchild);
+            preorder(ptr->rightchild);
+        }
+    }
+
+    void postorder(node *ptr)
